@@ -1,0 +1,141 @@
+    
+            body{
+                margin: 0px;
+                background-color: #b6acac;
+            }
+            .body-class{
+                height: auto;
+                width:100%;
+        
+            }
+            #Left{
+                margin-left: 10px;
+                width: 40%;
+                float:left;
+                height: auto;
+                margin-bottom: 50px; 
+
+            }
+            #left img{
+                width:100%;
+                padding: 10px 0px 0px 10px;
+               
+            }
+            #Right{
+                margin-bottom: 50px;
+                height: auto;
+                width:50%;
+                float:left;
+                margin-top: 0px;
+            }
+        
+             #name h1{
+                text-align: center;
+                font-size: 60px;
+                font-weight: 90;
+                margin: 0px; 
+                font-family: 'Reggae One', cursive;
+            }
+            #Des1{
+                text-align: center;
+            }
+            #Des2{
+                text-align: center;
+                font-size: 15px;
+                font-weight: 100;
+                margin-top: 40px;
+                font-family:Helvetica,Arial,sans-serif;
+            }
+            .width-100{
+                width:100%;
+            }
+           
+            .align-center{
+                
+                text-align: center;
+            }
+            .li-item li {
+                margin-top: 70px;
+                display:inline-table;
+                width: 20%;
+                
+            }
+            .li-item li img {
+                 width: 100%;
+                 border-radius: 50%;
+            }
+            button{
+           
+                color:whitesmoke;
+                padding: 20px;
+                font-size: 20px;
+                border: black;
+                align-items: center;
+                cursor: pointer;
+            }
+            
+            button:hover{
+               background-color: #363634;
+               border-color: none;
+            }
+            a { color:whitesmoke;
+                text-decoration: none;
+            }
+            #contact_link{
+                align-items: center;
+                text-align: center;
+                text-decoration: none;
+                margin:0px 0px;
+            }
+            #contact_link img{
+                padding: 0px 0px 0px 0px;
+                width: 40px;
+                background-color: black;
+                border-radius: 50%;
+                height: 40px;
+            }
+            #contact_link ul{
+                list-style-type: none;
+                text-decoration: none;
+                display: inline-block;
+            }
+            #contact_link  ul li{
+                padding-left:0px;
+                display:inline;
+            }
+            #Downloadbtn{
+                
+                margin-top: 20px;;
+                padding-left: 70px;
+               color: #363634;
+               
+            }
+            #contactdiv{
+                height: 500px;
+                background-color: aqua;
+                overflow: auto;  
+            }
+        .btn{
+            background-color: #dbd2d2;
+            border-radius: 90px;
+            margin: 30px;
+            padding: 20px;
+        }
+        #downRes{
+            background-color: rgb(12, 120, 243);
+            border-radius: 30px;
+        }
+        #header{
+            position:sticky;
+            top:0;
+            height:30px;
+            width:100%;
+            background-color: black;
+        }
+        footer{
+            height: 20px;
+            background-color: black;
+            width:100%;
+            position: fixed;
+            bottom:0;
+        }
